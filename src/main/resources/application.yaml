@@ -1,0 +1,12 @@
+#spring.application.name=backend-payments-solution
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/payment_db
+    username: springuser
+    password: springpassword
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
